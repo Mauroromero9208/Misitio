@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ejemplo de html5">
+   <meta name="keywords" content="html5,css3,javascript">
+     <title>servicio de entrega</title>
+     <link rel="stylesheet" href="misestilos.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="banner" src="imagenes/img10.png">
+        </div>
+<h1></h1>
+<p>Servivio de servientrega</p>
+    </div>
+    </div>
+    </header>
+<body div id="cuerpo">  <header id="encabezado">
+<header id="encabezado">
+    <div class="banner-container">
+        <div class="moving-text">
+<h1> 🚗Envíos 🎉 Registar ✨ Usuarios ✨Mejora tus envios </h1>  </div>
+</div>
+    <h1> Servientrega Rapido y Seguro</h1>
+    <img src="imagenes/img2.jpg"width="500px" height="300px" img/>
+</header>
+<nav id="menu"> 
+    <a href="#" class="nav-enlace">Usuario</a>
+    <a href="#" class="nav-enlace">Pedidos</a>
+    <a href="#" class="nav-enlace">servicios</a>
+    <a href="#" class="nav-enlace">Contacto</a>
+</nav>
+
+<section id="menu"> 
+    Ofrecer diferentes opciones de envío (ej: envío estándar, envío urgente, 
+    envío a domicilio) y permitir a los clientes elegir la que mejor se ajuste a sus necesidades. 
+<section id="video">
+  <div class="video-container">
+    <video src="Video de WhatsApp 2025-06-01 a las 07.23.06_75688bca.mp4" width="500px" height="300px" controls autoplay></video>
+      <source src="static/videos/Servicios envios.mp4" type="VIDEO envios.mp4"/>
+    </video>
+  </div>
+</section>
+<article 
+<h2>Documentos:
+Servientrega ofrece servicios de envío de documentos unitarios, publicaciones, avisos judiciales, PQR (Peticiones, Quejas y Recursos), y sobreporte. 
+Mercancías:
+Servientrega puede transportar mercancías o paquetes individuales, con una guía independiente para seguimiento. 
+Artículos de alto valor:
+Ofrece servicios de transporte y entrega de paquetes de alto valor entre oficinas. </h2>
+    <p> este es el contenido principaldel</p>
+    <footer></footer>
+    <br> <br>
+    <img src="imagenes/img3.jpg"width="400px" height="300px" img/>
+</article> 
+<article 
+<h2>titulo segundo  articulo</h2>
+ <p> . Paquetes individuales:
+Pueden ser de cualquier tamaño y peso, siempre y cuando no excedan las restricciones generales de la empresa, como el volumen máximo o el valor declarado. 
+2. Mercancías:
+Se refiere a envíos más grandes o con mayor volumen, que pueden ser recogidos, transportados y entregados a través de servicios de logística. 
+En detalle:
+Restricciones generales:
+Servientrega tiene ciertas restricciones para todos los envíos, como las dimensiones máximas de los paquetes (1.50 mt en cualquier dimensión, 3 mt en total), el valor declarado (hasta US$2.000), y el peso (hasta 110 libras).  <mark> </p>
+    <br> <br>
+    <img src="imagenes/img4.jpg"width="400px" height="300px" img/>
+ <footer> 
+    <small> fin articulo 2 </small>
+ </footer>
+ </article>
+</section>
+<br> <br>
+
+
+ <foter id="pie">  
+    <div class="contact-container">
+    <h2>Contáctanos</h2>
+
+    <div class="contact-info">
+      <p><strong>Teléfono:</strong> +57 601 7700 200</p>
+      <p><strong>WhatsApp:</strong> +57 313 880 0000</p>
+      <p><strong>Email:</strong> servicioalcliente@servientrega.com</p>
+      <p><strong>Dirección:</strong> Bogotá D.C., Colombia</p>
+    </div>
+
+    <form class="contact-form" onsubmit="return enviarFormulario()">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+    </form>
+  </div>
+ 
+<br> <br>
+    <section id="video">
+  <div class="video-container">
+    <video src="Video de WhatsApp 2025-06-01 a las 12.08.05_aba0f7ff 2.mp4" width="500px" height="300px" controls autoplay></video>
+      <source src="static/videos/Servicios envios.mp4" type="VIDEO envios.mp4"/>
+    </video>
+
+    <br> <br>
+
+<h2>Consulta tu Envío - Servientrega</h2>
+  <form action="https://www.servientrega.com/wps/portal/Colombia/rastreo-envios" method="get" target="_blank" onsubmit="return buscarGuia()">
+    <label for="guia">Número de Guía:</label>
+    <input type="text" id="guia" name="guia" required>
+    <button type="submit">Rastrear</button>
+  </form>
+
+  <script>
+    function buscarGuia() {
+      const guia = document.getElementById('guia').value;
+      if (!guia.match(/^\d{8,20}$/)) {
+        alert("Por favor ingresa un número de guía válido.");
+        return false;
+      }
+      const url = "https://www.servientrega.com/wps/portal/Colombia/rastreo-envios?numero=" + guia;
+      window.open(url, '_blank');
+      return false;
+    }
+  </script>
+  
+ </foter>
+</html>
+

@@ -1,0 +1,255 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    font:Bold;
+    font-size: 20px;
+  font-family: Verdana, sans-serif;
+}
+h2{
+    font:bold 14px verdana ,arial sans-serif,
+}
+body {
+  background-image:
+  url("imagenes/img9.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150%; /* Agranda al 150% */
+    text-align: center
+        }
+
+.banner{
+clip-path: circle(35%);
+width: 500px;
+transition: .3s;
+}
+
+.banner:hover{
+clip-path: circle(38%);
+scale: 1.02;
+}
+
+    #cuerpo{
+        width: 960px;
+        margin: 15px auto;
+        text-align: left;
+    }
+
+    #encabezado{
+        background-color: #cadfc1;
+        border: 1px solid  #8a8787;
+        padding: 20px;
+    }
+    #menu {
+         background:#cccccc;  
+   padding: 5px 15px;
+    }
+    #seccion {
+        float: left;
+        width: 660px;
+        margin: 20px;
+    }
+    #lateral {
+        float: above;
+        width: 500px;
+        margin: 20px 0px;
+        padding: 20px;
+        background:  #cccccc; 
+    }
+    #pie {
+        float:center;
+             clear:both;
+             text-align: center;
+             padding: 20px;
+             border-top: 5 px solid #999999; }
+    article{
+                background: #fffbcc;
+                border: 1px solid #999999;
+                padding: 20px;
+                margin: 20px;
+    }
+    article footer{
+        text-align: right;
+    }
+    #menu li {
+        display: inline-block;
+        list-style: none;
+        padding: 5px;
+        font: bold 14px verdana,sans-serif;
+    }
+    article{
+        background: #fffbcc;
+        border: 1px solid #999999;
+        padding: 20px;
+        margin-bottom: 15px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius:20px;
+      border-radius: 20px;
+      -moz-box-shadow: rgb(150,150,150)5px 5px;
+      -webkit-box-shadow:rgb(150,150,150)5px 5px;
+      box-shadow:rgb(150,150,150)5px 5px;
+    } 
+     
+#menu{
+background: #ccccce;
+padding: 5px 15px;
+background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+background: -moz-linear-gradient(top, #FFFFFF, #006699);
+
+}
+
+#lateral{
+float:right;
+width:220px;
+margin:20px Opx;
+padding:20px;
+background:#cccccc;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow: rgb(150,150,150) 5px 5px;
+  }
+
+  table{
+text-shadow: #97a391;
+font-family:Verdana, Arial, sans-serif;
+font-size: 12px;
+}
+
+.nav-enlace{
+
+    display: inline-block;
+  background: #4ff005;
+  padding: 20px;
+        margin-bottom: 15px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius:20px;
+      border-radius: 25px;
+    Color: #040603; 
+    padding: 10px, 30px;
+    text-decoration: none;
+}
+
+.nav-enlace :hover{
+background: rosybrown;
+}
+
+
+
+.banner-container {
+     width: 100%;
+    background-color: #37c225; /* Color de fondo del banner */
+    color: #000000; /* Color del texto */
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+    white-space: nowrap; /* Evita que el texto salte de línea */
+    overflow: hidden; /* Oculta el texto que está fuera del contenedor */
+    position: relative; /* Necesario para posicionar el texto móvil */
+}
+
+.banner-container {
+    width: 100%;
+    background-color: #d7e3f3; /* Color de fondo del banner */
+    color: #000000; /* Color del texto */
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+    white-space: nowrap; /* Evita que el texto salte de línea */
+    overflow: hidden; /* Oculta el texto que está fuera del contenedor */
+    position: relative; /* Necesario para posicionar el texto móvil */
+}
+
+.moving-text {
+    display: inline-block; /* Permite que el texto se mueva horizontalmente */
+    padding-left: 100%; /* Inicia el texto fuera de la pantalla por la derecha */
+    animation: moveText 30s linear infinite; /* Aplica la animación */
+}
+
+/* Definición de la animación */
+@keyframes moveText {
+    0% {
+        transform: translateX(0%); /* Posición inicial: completamente a la derecha */
+    }
+    100% {
+        transform: translateX(-100%); /* Posición final: se mueve completamente a la izquierda */
+    }
+
+/* Pausar la animación al pasar el ratón */
+.moving-text:hover {
+    animation-play-state:paused;
+
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #00703c;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      font-size: 16px;
+      margin: 8px 0;
+    }
+
+    .contact-info strong {
+      display: inline-block;
+      width: 120px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00703c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: #005c33;
+    }
+
+    .note {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 10px;
+    }
+
+
+
