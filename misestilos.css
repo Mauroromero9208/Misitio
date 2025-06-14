@@ -2,6 +2,77 @@
     margin: 5px;
     padding: 5px;
 }
+body {
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0a0909;
+  color: #050608;
+}
+body{
+  background-image:
+  url(ambulancia\ prius4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+
+header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, rgb(245, 241, 241), #11ec98);
+  color: rgb(7, 7, 7);
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+#video h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 60px;
+  color: #000000;
+}
+
+.video-container {
+  max-width: 90%;
+  margin: 40px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: none;
+}
+
+.banner{
+  clip-path: circle(35%);
+  width: 500px;
+  transition: .3s;
+}
+.banner:hover{
+  clip-path: circle(45%);
+  scale: 1.05;
+}
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border-radius: 12px;
+}
+
+.nav-enlace {
+display: inline-block;
+background: #005c33;
+border-radius: 20px;
+border: #eeee;
+}
+
+
+
 h1{
     font:Bold;
     font-size: 20px;
@@ -142,7 +213,7 @@ background: rosybrown;
 .banner-container {
      width: 100%;
     background-color: #37c225; /* Color de fondo del banner */
-    color: #000000; /* Color del texto */
+    color: #050404; /* Color del texto */
     padding: 10px 0; /* Espaciado interno superior e inferior */
     box-sizing: border-box; /* Incluye padding en el ancho */
     white-space: nowrap; /* Evita que el texto salte de línea */
@@ -175,9 +246,10 @@ background: rosybrown;
     100% {
         transform: translateX(-100%); /* Posición final: se mueve completamente a la izquierda */
     }
+    }
 
 /* Pausar la animación al pasar el ratón */
-.moving-text:hover {
+moving-text:hover {
     animation-play-state:paused;
 
 }
@@ -251,5 +323,35 @@ body {
       margin-top: 10px;
     }
 
+
+    * { 
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #b4ceab;
+      color: #050404;
+      padding: 20px;
+    }
+
+    
+      header, nav, main, aside, footer {
+     margin-bottom: 20px; 
+     padding: 15px;
+     background-color: rgb(133, 231, 162);
+     border-radius: 10px;
+     box-shadow: 0 0 rgb (0, 0, 0);
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #007acc;
+
+      }
+      
 
 
