@@ -352,6 +352,54 @@ body {
         color: #007acc;
 
       }
+
+      main {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+@media (min-width: 768px) {
+main {
+flex-direction: row;
+}
+main section {
+flex: 2;
+}
+aside {
+flex: 1;
+}
+main, aside {
+display: flex;
+flex-direction: column;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+input[type="submit"] {
+padding: 10px;
+background-color: #007acc;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background-color: #005fa3;
+}
+
+
       
 
 
